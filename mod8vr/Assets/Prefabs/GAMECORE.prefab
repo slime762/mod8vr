@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1317718713503513753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317718713503513755}
+  - component: {fileID: 1317718713503513752}
+  - component: {fileID: 1317718713503513754}
+  - component: {fileID: 5407186562742247591}
+  - component: {fileID: 5407186562742247590}
+  m_Layer: 0
+  m_Name: GAMECORE 1
+  m_TagString: System
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317718713503513755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317718713503513753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.34, y: 0, z: -5.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1317718713503513752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317718713503513753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46d685c99b25f149a3a4f5c34efd2c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regdata:
+    headdata: []
+    bodydata: []
+    armsdata: []
+    legsdata: []
+    weapondata: []
+    shoulderdata: []
+  refreshreg: 0
+--- !u!114 &1317718713503513754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317718713503513753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c174e41da6c184198e9e25dd28b0ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regloader: {fileID: 0}
+  regdat:
+    headdata: []
+    bodydata: []
+    armsdata: []
+    legsdata: []
+    weapondata: []
+    shoulderdata: []
+  gamecore: {fileID: 0}
+  text: {fileID: 0}
+  ml: {fileID: 0}
+  bwa: {fileID: 0}
+  sg: {fileID: 0}
+  headid: 0
+  bodyid: 0
+  armsid: 0
+  legsid: 0
+  leftwid: 0
+  rightwid: 1
+  lshoulderid: 0
+  rshoulderid: 0
+--- !u!114 &5407186562742247591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317718713503513753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5ac2ffb9be1064cbc0c57f846c553c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headmodels:
+  - {fileID: 5875532440695519151, guid: 379031528901f9a47897404c1d832730, type: 3}
+  - {fileID: 5071617277039148881, guid: db9a4a6319077ef40aab0fc930520efb, type: 3}
+  - {fileID: 3010090641507955671, guid: 5e32d812bd67b314fae097952dc40cbf, type: 3}
+  - {fileID: 5556090638406020581, guid: 98b03150e6a59fe42b0c36bb37dbd9cf, type: 3}
+  bodymodels:
+  - {fileID: 1397656166047573609, guid: dd3d65454a5f17746a992cb2326335f1, type: 3}
+  - {fileID: 1395583240743789212, guid: 05046dad8256af5458a6b69ad7583cd1, type: 3}
+  - {fileID: 4206343931964562033, guid: 552a3ce2e88e9ae4896a5baf147cfbda, type: 3}
+  - {fileID: 4389854345589065910, guid: f89e1d5767c17da498272a157a3aa912, type: 3}
+  armsmodels:
+  - {fileID: 7481996516909512901, guid: df82f465d3f18f54e9aae33b963ddc74, type: 3}
+  - {fileID: 5958677969815191778, guid: 40c387def34944a4294b866939301ec0, type: 3}
+  - {fileID: 2493577288705061131, guid: fea8fc102b786c9449b2d5e617f2c238, type: 3}
+  - {fileID: 6721867430476800705, guid: 3056ce46dca1b2941a058d710b1fd4d2, type: 3}
+  legsmodels:
+  - {fileID: 3643730837679490904, guid: 1c1a585b217f1ba439425918402be4d6, type: 3}
+  - {fileID: 6608343096715965345, guid: 4947ac22151cc8e44aed4afdcd15a04b, type: 3}
+  - {fileID: 7892826042571294027, guid: 0af57d29dee93fb40ae6f5ab243a4b8e, type: 3}
+  - {fileID: 7003459243642392817, guid: bed34e385abd43844aacf2f1756d8dd9, type: 3}
+  weaponmodels: []
+  shouldermodels: []
+--- !u!114 &5407186562742247590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317718713503513753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0b09a8aceb8a84780ab54b73d83b76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gc: {fileID: 0}
+  ml: {fileID: 0}
+  bwstarget: {fileID: 0}
+  tagname: bwasmbase
